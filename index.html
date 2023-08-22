@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+    <header>
+        <h2 class="logo">Logo</h2>
+        <nav class="navigation">
+            <a href="#" class="active">Home<span></span></a> 
+            <a href="#">About Us <span></span></a> 
+            <a href="#">Service <span></span></a> 
+            <a href="#">Contact us <span></span> </a> 
+        </nav>
+    </header>
+
+    <section class="parallax">
+        <h2 id="text"> Parallax website</h2>
+        <img src="src/img/tree-left.png" id="tree-left">
+        <img src="src/img/tree-right.png" id="tree-right">
+        <img src="src/img/gate-left.png" id="gate-left">
+        <img src="src/img/gate-right.png" id="gate-right">
+        <img src="src/img/grass.png" id="grass">
+    </section>
+
+    <section class="sec">
+       <h2>Parallax Scrolling form</h2>
+       <div class="formbox">
+            <h1 class="formhead">SIGN UP TO OUR</h1>
+            <h1 class="formnews">NEWSLETTER</h1>
+            <h3>DON'T WORRY WE WILL NOT SPAM YOU</h3>
+
+            <div class="gif1">
+                <img src="src/gif/SecretSauce.gif" height="180">
+            </div>
+
+            <div class="gif2">
+                <img src="src/gif/TopDog.gif" height="180">
+            </div>
+
+            <form action="submit.php" method="post">
+                <label for="name">NAME</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+                
+                <label for="email">EMAIL</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                
+                <label for="phone">TELEPHONE</label><br>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="07" required><br><br>
+                
+                <label for="birthday">WHEN IS IT YOUR BIRTHDAY?:</label><br>
+                <input type="date" id="birthday" name="birthday" required><br><br>
+                
+                <button type="submit">Sign Me Up</button>
+            </form>
+       </div>
+    </section>
+
+    <script src="src/js/script.js"></script>
+</body>
+</html>
