@@ -200,3 +200,14 @@ button:hover{
   width: 20%;
   margin-top: 3%;
 }
+
+#mouse {
+  width: 3em;
+  height: 3em;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  transition: 0.5s ease-out;
+
+}
+
